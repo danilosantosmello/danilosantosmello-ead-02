@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Danilo - Formulário</title>
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+  <h3><strong>Formulário</strong></h3>
+
+  <form action='servidor.php' method='GET'>
+    <p>
+      <strong>Digitar o seu nome completo:</strong>
+      <input type='text' name='Digitar o seu nome completo'>
+      
+    </p>
+    <p>
+      <strong>Digite o seu e-mail:</strong>
+      <input type='text' name='email'>
+      <input type='submit' value='Enviar'>
+    </p>
+    <p>
+      <label for='senha'>Digite a sua senha:</label>
+      <input autofocus type='password' name='senha' id='senha'>
+    </p>
+    </p>
+    <p>
+      Sexo:
+      <input type='radio' checked name='sexo' id='feminino' value='f'>
+      <label for='feminino'>Feminino</label>
+      <input type='radio' name='sexo' id='masculino' value='m'>
+      <label for='masculino'>Masculino</label>
+    </p>
+    Esolha seu estilo musical:
+    <select name="estiloMusical" id="estiloMusical" multiple size='7'>
+      <option value="p">Pop</option>
+      <option value="r">Rock</option>
+      <option value="pg">Pagode</option>
+      <option value="s">Samba</option>
+      <option value="m">MPB</option>
+      <option value="st" selected>Sertanejo</option>
+      <option value="fk">Funk</option>
+    </select>
+    <p>
+      Escolha sua Graduação:
+      <select name= 'formaçao' id='formaçao' multiple size='5'>
+        <option value='en'>Ensino Médio</option>
+        <option value='spc'>Superior Completo</option>
+        <option value='Pg'>Pós-Graduação</option>
+        <option value='MS'>Mestrado</option>
+        <option value='D'>Doutorado</option>
+
+      </select>
+      <p>Comentaarios sobre o site:
+    <textarea name="textao" id="textao" cols="30" rows="10">ótimo site!
+    </textarea>
+
+    <input type='submit' value='Enviar'>
+    <input type='reset' value='Recomeçar'>
+    <input type='hidden' name='id' id='id' value='234343'>
+
+  </p>
+  <p><strong>Data de Nascimento</strong>
+    <input type='text'
+    placeholder="DD/MM/YYYY"
+    name='dataNacimento'> <br>
+
+  </p>
+  <p>Qual a sua cor favorita:
+    <input type='color'>
+  </p>
+  <p>Quantidade de filhos:
+      <input type='number'>
+    </p>
+    <p>Quantidade de veiculos:
+        <input type='range'>
+      </p>
+      <p>
+          <input type='checkbox' checked name='novidades' id='novidades'>
+          <label for='novidades'>
+            Deseja receber ofertas via email ?
+          </label>
+    <p>
+    <input type='submit' value='enviar'> <input type='submit' value='Limpar dados'>
+    </p>
+
+
+  </form>
+</body>
+
+</html>
