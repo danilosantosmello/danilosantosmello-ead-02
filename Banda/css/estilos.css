@@ -12,3 +12,22 @@ table, td {
     margin: 0.5em;
     padding: 0.5em;
   }
+  #imagem{
+    width:105px;
+    height: 140px;
+    position:absolute;
+    left: 596px;
+    top: 139px;
+}h2	{					
+  background-image:	url(../img/sobre-background.jpg);
+  padding: 10px;
+  background-color: #ccc;
+  text-shadow: 0 0 1px, 0 0 0px;	
+}
+body	{			
+  color:	#333333;			
+  font-family: "Lucida	Sans Unicode",  "Lucida	Grande",  sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;	
+} 
